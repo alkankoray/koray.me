@@ -1,0 +1,56 @@
+## Basic Configuration
+
+baseurl = "https://koray.me"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Koray Alkan"
+title = "Koray Alkan"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "UA-2326619-1"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Koray Alkan"
+intro = "thoughts & reflections"
+description = "Software Engineer @Bloomberg. <br/>Love classical music and playing the trumpet.<br/> Opinions are my own."
+authorimage = "avatar_none.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "personal homepage and blog"
+keywords = "minimalist,blog,goa,hugo,developer,koray alkan"
+
+## Social Accounts
+[params.social]
+twitter = "alkankoray"
+linkedin = "alkankoray"
+email = "alkan@koray.me"
+
+
+## Extras
+[params.extra]
+copyright = "© 2019 Koray Alkan. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/posts/"
